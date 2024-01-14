@@ -1,0 +1,10 @@
+
+docker container run -d -p 3000:3000 hiteshchoudhary/hey-nodejs:0.0.1.RELEASE
+docker container stop 832
+docker push irfaniiitr/hello-node:0.0.1.RELEASE
+
+
+docker pull irfaniiitr/hello-node:0.0.1.RELEASE
+docker run irfaniiitr/hello-node:0.0.1.RELEASE
+docker ps
+docker stop 'container id'
